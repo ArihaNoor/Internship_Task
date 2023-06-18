@@ -182,22 +182,20 @@ body {
     z-index: 1;
     border: 1px solid black;
     box-shadow: 0 0 0 10px rgb(236, 233, 233);
-    background-image: linear-gradient(
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)
-        ),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)),
         url('https://cdn.pixabay.com/photo/2019/09/05/05/28/eye-4453129_1280.jpg');
     background-position: center;
     background-size: cover;
 }
 
-#section3{
+#section3 {
     position: relative;
     top: 130px;
     margin: 0px 90px 0px 90px;
 }
 
-.shape4{
+.shape4 {
     height: 300px;
     width: 250px;
     background-image: url('assets/bg.png');
@@ -206,24 +204,27 @@ body {
     border-top-right-radius: 30%;
     margin-left: 60px;
 }
-.section3-container{
+
+.section3-container {
     display: flex;
     flex-direction: row;
 }
 
-.center-content{
+.center-content {
     position: relative;
     top: 150px;
     left: 70px;
     font-weight: bold;
 }
-#section3-main{
+
+#section3-main {
     width: 500px;
     position: absolute;
     left: 650px;
     top: 40px;
 }
-.content1{
+
+.content1 {
     padding-top: 20px;
     display: flex;
     flex-direction: row;
@@ -231,21 +232,22 @@ body {
     justify-content: space-between;
 }
 
-.content2{
+.content2 {
     padding-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.content1 img{
-    border-radius: 50%;
-}
-.content2 img{
+.content1 img {
     border-radius: 50%;
 }
 
-.inner{
+.content2 img {
+    border-radius: 50%;
+}
+
+.inner {
     display: flex;
     flex-direction: row;
 }
